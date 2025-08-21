@@ -15,8 +15,8 @@ vars = {
   'skia_git': 'https://skia.googlesource.com',
   'llvm_git': 'https://llvm.googlesource.com',
   'skia_revision': '6062afaa505bf7e6c727a20cafe4c7bee0f02df8',
-  "dart_sdk_revision": "ddb0f3b6c38b1774a3413c2c159b124be6bd1df7",
-  "dart_sdk_git": "git@github.com:shorebirdtech/dart-sdk.git",
+  #"dart_sdk_revision": "ddb0f3b6c38b1774a3413c2c159b124be6bd1df7",
+  #"dart_sdk_git": "git@github.com:shorebirdtech/dart-sdk.git",
   "updater_git": "https://github.com/User404User/updater.git",
   "updater_rev": "be2371a92e1e26fc552f2ca16a2fd44a0bb64c44",
 
@@ -340,8 +340,8 @@ deps = {
   # 'src/flutter/build/secondary/third_party/protobuf':
   #  Var('flutter_git') + '/third_party/protobuf-gn' + '@' + Var('dart_protobuf_gn_rev'),
 
-  'src/flutter/third_party/dart':
-   Var('dart_sdk_git') + '@' + Var('dart_sdk_revision'),
+  #'src/flutter/third_party/dart':
+  # Var('dart_sdk_git') + '@' + Var('dart_sdk_revision'),
 
   # WARNING: Unused Dart dependencies in the list below till "WARNING:" marker are removed automatically - see create_updated_flutter_deps.py.
 
